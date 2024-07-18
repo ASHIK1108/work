@@ -1,0 +1,44 @@
+/* src/components/NavBar.css */
+
+nav {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding around the nav bar */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styles */
+    text-align: center; /* Center-align the list items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline; /* Display list items inline */
+    margin: 0 10px; /* Add margin between list items */
+  }
+  
+  li a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding inside each link */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  li a:hover {
+    background-color: #555; /* Darken background color on hover */
+  }
+  
+  @media (max-width: 600px) {
+    /* Responsive behavior for screens smaller than 600px */
+    nav {
+      padding: 5px 0; /* Reduce padding for smaller screens */
+    }
+    li {
+      margin: 0 5px; /* Reduce margin between list items */
+    }
+    li a {
+      padding: 8px 12px; /* Adjust padding for smaller links */
+    }
+  }
